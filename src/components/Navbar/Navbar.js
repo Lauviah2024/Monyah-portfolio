@@ -9,8 +9,8 @@ import { FaUser, FaFolderOpen } from 'react-icons/fa';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CloseIcon from '@material-ui/icons/Close';
-
 import './Navbar.css';
+
 import { headerData } from '../../data/headerData';
 import { ThemeContext } from '../../contexts/ThemeContext';
 
@@ -125,21 +125,20 @@ function Navbar() {
 
     const classes = useStyles();
 
-    const shortname = (name) => {
-        if (name.length > 12) {
-            return name.split(' ')[0];
-        } else {
-            return name;
-        }
-    };
+    // const shortname = (name) => {
+    //     if (name.length > 12) {
+    //         return name.split(' ')[0];
+    //     } else {
+    //         return name;
+    //     }
+    // };
 
     return (
         <div className='navbar'>
             <div  className='navbar--container'>
-                <h1 style={{ color: theme.secondary }}>
-                    {shortname(headerData.name)}
-                </h1>
-
+                <div className=''>
+                    <img src={headerData.logo} alt='my logo' height={200} width={200}/>
+                </div>
                 <IoMenuSharp
                     className={classes.navMenu}
                     onClick={handleDrawerOpen}

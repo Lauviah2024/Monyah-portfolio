@@ -72,8 +72,10 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
-
+import flask from '../assets/svg/skills/flask.svg'
+import nest from '../assets/svg/skills/Nestjs.svg'
 import canva from '../assets/svg/skills/canva.svg'
+import laravel from '../assets/svg/skills/laravel.svg'
 
 
 export const skillsImage = (skill) => {
@@ -227,6 +229,12 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'flask':
+            return flask;
+        case 'nest':
+            return nest;
+        case 'laravel':
+            return laravel;
         default:
             break;
     }

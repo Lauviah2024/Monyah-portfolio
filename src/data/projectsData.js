@@ -6,53 +6,78 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
+import cinevibe from '../assets/png/cine_vibes.png'
+import techtrell from '../assets/png/techtrell.png'
+import yowl from '../assets/png/coventry.png'
+import freeads from '../assets/png/Free_ads.jpeg'
+import postit from '../assets/png/post-it.png'
+import epiflix from '../assets/png/epiflix.png'
+import dashboard from '../assets/png/dashboard.png'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'History Through Movies',
-        projectDesc: 'This project seeks to explore whether the pedagogy of history can be improved with the visual media, particularly Cinema. The Website is intended to show movies that fit the bill. I have a fullstack role in this having built all of it.',
-        tags: ['Django', 'HTML' ,'CSS', 'Javascript'],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        projectName: 'Cine Vibes',
+        projectDesc: 'This project is a web application that centralizes many movies to make easier the movies searching by users. The app has also a dashboard admin for the site admin who can add manage movies for him or her users.',
+        tags: ['React', 'Next js', 'Tailwind CSS', 'MongoDB Atlas', 'Docker'],
+        code: 'https://github.com/EpitechCodingAcademyPromo2024/C-COD-270-COT-2-3-c2cod270p0-dolores.azondjedo',
+        demo: '',
+        image: cinevibe
     },
     {
         id: 2,
-        projectName: 'Sportsjam.in Clone',
-        projectDesc: 'This is a clone of an e-commerce website sportsjam.in. My contribution to this project was the product catalogue page and its features, like sorting and filtering. The rest of the project was built by various members of the group',
-        tags: ['HTML', 'CSS','Javascript'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67"
+        projectName: 'Yowl',
+        projectDesc: 'This is a web application that centralizes all the comments about something. The app is based on an extension.',
+        tags: ['Laravel', 'Vue js', 'Tailwind CSS', 'My SQL', 'Docker'],
+        code: 'https://github.com/EpitechCodingAcademyPromo2024/C-DEV-160-COT-1-2-yowl-edem.kpomachi',
+        demo: '',
+        image: yowl
     },
     {
         id: 3,
-        projectName: 'Educative Clone',
-        projectDesc: 'This project is the clone of Educative.io. Built as part of Project week, my contributions include the home page(both with user and without user), course information page and checkout page. The rest of the pages and features were built by other members of my team',
-        tags: ['React', 'Material UI', 'Express', "MongoDB","NodeJS"],
-        code: 'https://github.com/sreerag-rajan/educative-clone',
-        demo: 'https://educative-clone.vercel.app/',
-        image: "https://user-images.githubusercontent.com/85482640/161571651-35ab8e4e-dc57-4834-bafc-9485766f5b8a.png"
+        projectName: 'TechTrell',
+        projectDesc: 'This project is mobile app based on Trello API that allows to users tasks management.',
+        tags: ['React Native', 'Tailwind CSS', 'Trello API'],
+        code: 'https://github.com/EpitechCodingAcademyPromo2024/C-COD-290-COT-2-3-epicture-lauviah.vlavonou',
+        demo: '',
+        image: techtrell
     },
     {
         id: 4,
-        projectName: 'Reliance Digital Clone - Backend Integration',
-        projectDesc: 'This is the clone of reliancedigital.in. Features I worked on the Product Catalogue pages and also on some minor parts on other pages as well',
-        tags: ['EJS', 'Express', 'MongoDB', 'Node.js'],
-        code: 'https://github.com/sreerag-rajan/Reliance-Digital-Clone-U4-',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'Free ads',
+        projectDesc: 'Laravel free adds is a website that allows users to post free adds for their products and services.',
+        tags: ['Laravel', 'Tailwind CSS', 'My SQL'],
+        code: 'https://github.com/EpitechCodingAcademyPromo2024/C-DEV-120-COT-1-2-freeads-georges.ayeni',
+        demo: '',
+        image: freeads
     },
     {
         id: 5,
-        projectName: 'Reliance Digital Clone - Frontend',
-        projectDesc: 'This project is the clone of Reliance Digital built as a part of a project week. It simulates the functionality of an e-commerce website from landing page to checkout. My contribution was the product catalog page arriving from the navbar, as well as leading the team.',
-        tags: ['HTML', 'CSS', 'Javascript'],
-        code: 'https://github.com/iamrituyadav/Reliance_digital',
-        demo: 'https://reliance-digital-clone.herokuapp.com/',
-        image: "https://miro.medium.com/max/875/1*qRNfRbuHCDC1ct0chLZoWA.png"
+        projectName: 'My post-it',
+        projectDesc: 'This is a web application that allows to users to manage their tasks in the journey.',
+        tags: ['Vue js', 'Bootstrap', 'REST API'],
+        code: 'https://github.com/EpitechCodingAcademyPromo2024/C-DEV-121-COT-1-2-postit-lauviah.vlavonou',
+        demo: '',
+        image: postit
+    },
+    {
+        id: 6,
+        projectName: 'Epiflix',
+        projectDesc: 'This is the model of one application of movies searching like netflix or prime video.',
+        tags: ['Figma'],
+        code: 'https://www.figma.com/design/PGRuI7XXaaTatHqd06Yhkc/Epiflix?node-id=0-1&node-type=canvas&t=0EX6G2MEITVUDEZc-0',
+        demo: '',
+        image: epiflix
+    },
+    {
+        id: 7,
+        projectName: 'Dashboard',
+        projectDesc: 'This is a web application allowing to users to make themselves their own dashboard by subscribing to services and adding some widgets like netvibes functionning.',
+        tags: ['Next js', 'React', 'TailWind CSS', 'Docker'],
+        code: 'https://github.com/EpitechCodingAcademyPromo2024/C-COD-280-COT-2-3-dashboard-richard.ati',
+        demo: '',
+        image: dashboard
     },
     
 ]

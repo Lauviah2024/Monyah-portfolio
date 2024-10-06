@@ -3,10 +3,19 @@
     'Javascript',
     'CSS',
     'React',
-    'Django',
+    'Flask',
     'MongoDB',
     'MySQL',
-    'Python'
+    'Python',
+    'Next JS',
+    'Figma',
+    'Vue',
+    'Nest',
+    'Canva',
+    'Tailwind',
+    'Docker',
+    'Laravel'
+
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
